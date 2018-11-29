@@ -89,7 +89,7 @@ foreach ($xml->channel as $channel) {
             modal.style.display = "none";
         }
 		
-		var iframe = modal.querySelector('iframe');
+	var iframe = modal.querySelector('iframe');
         var video = modal.querySelector('video');
         if (iframe) {
             var iframeSrc = iframe.src;
